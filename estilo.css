@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#settings{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    background: #505050;
+}
+
+#wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+}
+
+#zoomDiv{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 300;
+}
+#zoomDiv img{
+    width: 100%;
+    height: 100%;
+}
